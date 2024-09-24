@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio Senai</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--────────────────Header───────────────-->
+    <header>
+
+      <nav>
+        <ul class="nav-bar">
+          <div class="bg"></div>
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--─────────────────Home────────────────-->
+      <div id="home">
+        <div class="filter"></div>
+        <section class="intro">
+          <h3>Pedro Figueiredo
+            <hr>
+          </h3>
+          <p>Busco uma oportunidade de estágio na área de cibersegurança, onde possa aplicar meus conhecimentos em
+            Linux, Python e redes, contribuindo para a proteção e segurança digital da empresa enquanto desenvolvo
+            minhas habilidades técnicas e profissionais.</p>
+          <p>Esses são os projetos que desenvolvi no high school.</p>
+          <!--────social media links─────-->
+
+          <div class="social-media">
+            <a href="https://github.com/maybesunken" target="_blank"><i class='fab fa-github'></i></a>
+            <a href="https://br.linkedin.com/in/pedro-figueired0" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+          </div>
+
+        </section>
+      </div>
+
+      <!--───────────────Projects───────────────-->
+      <div id="projects">
+        <h3>My Projects.
+          <hr>
+        </h3>
+        <p>Aqui alguns projetos que você talvez goste.</p>
+        <div class="work-box">
+          <div class="work">
+            <!--───────────────card───────────────-->
+            <div class="card" onclick="toggleDetails(this)">
+              <img class="work-img"
+                src="https://images.unsplash.com/photo-1608792992053-f397e328a56d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+              <div class="work-content">
+                <h4>Matemática.</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://docs.google.com/document/d/1i3vxaJgrLvipI-QQiGAaR4lrIKg_VLooyvkk_ZNd_FE/edit?usp=sharing">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://drive.google.com/file/d/1Gs4MVS3u6zzrkVW8aBpA_42U1apqeIq0/view?usp=drive_link"
+                          target="_blank">Trabalho 1 (PDF)</a></li>
+                      <li><a
+                          href="https://www.canva.com/design/DAGKW3qPwJM/VkUH--kTLozbnsr1CPCrHQ/edit?utm_content=DAGKW3qPwJM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+              <div class="work-content">
+                <h4>Ciências Da Natureza</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://www.canva.com/design/DAGGhtckI8E/Vt86tl2FfSQ246QZ8TemBQ/edit?utm_content=DAGGhtckI8E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          1</a></li>
+                      <li><a
+                          href="https://www.canva.com/design/DAGQgPpaKic/X_MyNhNePOVaU_eSsToxVg/edit?utm_content=DAGQgPpaKic&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          2</a></li>
+                      <li><a
+                          href="https://www.canva.com/design/DAGH1hIjysU/CpUO0zY8KfcB6-0c3E3cBw/edit?utm_content=DAGH1hIjysU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'">Trabalho
+                          3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img" src="https://fach.ufms.br/files/2020/06/IMG_0311.jpg">
+              <div class="work-content">
+                <h4>Ciências Humanas</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://docs.google.com/document/d/1csf6VBub2DpFKp-BKsgkL6sW10zQoaK41_zG6JEFS-o/edit?usp=sharing">Trabalho
+                          1</a></li>
+                      <li><a
+                          href="https://docs.google.com/document/d/14_0bF1cN97HtGU-d6B6gb1O5aa8LMAJdwg9G1EvBqlg/edit?usp=sharing">Trabalho
+                          2</a></li>
+                      <li><a
+                          href="https://docs.google.com/document/d/1_-8tBbr82S218H2SrfiaGWVFPIbzhSoGBTDwX4XYXis/edit?usp=sharing">Trabalho
+                          3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://conteudo.imguol.com.br/c/entretenimento/29/2022/06/02/livros-1654192770802_v2_1x1.jpg">
+              <div class="work-content">
+                <h4>Linguagens</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://www.canva.com/design/DAGBXA4wGhc/LEoaivaNemBSssJ73vH4hg/edit?utm_content=DAGBXA4wGhc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          1</a></li>
+                      <li><a
+                          href="https://docs.google.com/document/d/1osyS5H0delt7y4-HbSymCScSqrdHxWVRn1hKaPNOyBs/edit?usp=sharing">Trabalho
+                          2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://uva.br/conteudo/as-5-linguagens-de-programacao-mais-usadas-blog-scaled.webp">
+              <div class="work-content">
+                <h4>Desenvolvimento de App&Games</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://github.com/maybesunken/Di-rio-de-Bordo">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+
+
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://www.canva.com/design/DAGGg98RJuI/8N22I-yFSNuIy8iIiTpZ7g/edit?utm_content=DAGGg98RJuI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img" src="https://img.odcdn.com.br/wp-content/uploads/2023/05/Elon-Musk.png">
+              <div class="work-content">
+                <h4>Fabricação Digital</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://www.canva.com/design/DAGFY3cWFd4/czlYRiCRJukYvQ7ap0RrKw/edit?utm_content=DAGFY3cWFd4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://yt3.googleusercontent.com/j5dMpGtjbf8izENGwTpDl9p8j0-SASDX9RTt0MDxPA-HiHN3lksNzyLFOzjuLH4mItkFHDyxUw=s900-c-k-c0x00ffffff-no-rj">
+              <div class="work-content">
+                <h4>Robótica</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://www.youtube.com/watch?v=8nJD5tC7dS0">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://docs.google.com/document/d/1Dn9kPdpuuUn8j_gDXYO2hw2T9RvYRnYgLC-uDypCog0/edit?usp=sharing">Trabalho
+                          1</a></li>
+                      <li><a
+                          href="https://www.canva.com/design/DAGHFzu2LZU/UepH9yCLaVlU4OqFvAKkLA/edit?utm_content=DAGHFzu2LZU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://images.unsplash.com/photo-1663656797722-723f2f4ea00e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+              <div class="work-content">
+                <h4>BioHackeria</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://drive.google.com/file/d/1ad2Lg-JuNzvXMeD65vGefEVLjvYe8kJ-/view">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://www.canva.com/design/DAGMhVluuiw/0FWXoK1DsXnhY5vDF3dv0A/edit?utm_content=DAGMhVluuiw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          1</a></li>
+                      <li><a href="https://drive.google.com/file/d/1ad2Lg-JuNzvXMeD65vGefEVLjvYe8kJ-/view">Trabalho 2</a></li>
+                      <li><a href="https://docs.google.com/document/d/1pLMl35yz06F_NO8_oa9LBcrTIhGsw6AzUa9d20HoQ9E/edit?usp=sharing">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGz13X6cDhOjWMdnh9_Kq44S8clhM04qUUA&s">
+              <div class="work-content">
+                <h4>Projetos Livres</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                  
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a
+                          href="https://www.canva.com/design/DAGNLhqTa4c/miuEaQjNVz4oXf7VgCHkTw/edit?utm_content=DAGNLhqTa4c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho
+                          1</a></li>
+                          
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+               
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="card">
+              <img class="work-img"
+                src="https://thumbs.dreamstime.com/b/fotos-do-vintage-no-fundo-velho-com-um-z%C3%AAnite-da-c%C3%A2mera-e-%C3%A1lbum-135385071.jpg">
+              <div class="work-content">
+                <h4>Mídias Digitais</h4>
+                <div class="trimesters">
+                  <div class="trimester">
+                    <h5>1º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://www.canva.com/design/DAGBjq24MEc/XXONwl2m-lzvxzieOGw_cQ/edit">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>2º Trimestre</h5>
+                    <ul>
+                      <li><a href="https://www.youtube.com/watch?v=dN6fuxhW62g">Trabalho 1</a></li>
+                      <li><a href="https://www.youtube.com/shorts/UhekE5nQq1c">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                  <div class="trimester">
+                    <h5>3º Trimestre</h5>
+                    <ul>
+                      <li><a href="#">Trabalho 1</a></li>
+                      <li><a href="#">Trabalho 2</a></li>
+                      <li><a href="#">Trabalho 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--──────────────Contact────────────────-->
+      <div id="contact">
+        <!--────social media links─────-->
+        <h3>Contact.
+          <hr>
+        </h3>
+        <p>Feel free to contact me on my social media.</p>
+        <div class="social-media">
+          <a href="https://github.com/maybesunken" target="_blank"><i class='fab fa-github'></i></a>
+          <a href="https://br.linkedin.com/in/pedro-figueired0" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+        </div>
+      </div>
+      </a>
+      <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  </div>
+
+  </div>
+  <!--
+				This script places a badge on your repl's full-browser view back to your repl's cover
+				page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+				teal, blue, blurple, magenta, pink!
+				-->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <script>
+    // JavaScript to handle card click for showing project details
+    function toggleDetails(card) {
+      const content = card.querySelector('.work-content');
+      content.classList.toggle('show-details');
+    }
+  </script>
+</body>
+
+</html>
+</main>
+</div>
+<!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+</body>
+
+</html>
